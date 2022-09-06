@@ -1,0 +1,42 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e63e39d7-6ac0-4ffd-8aa3-1841a4541b55)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 25.4) (size 25.4 12.7) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid a4c62b1e-034e-4e09-bb87-cac54dcaaa12)
+    (property "Sheet name" "HighPassFilter" (id 0) (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "HighPassFilter.kicad_sch" (id 1) (at 25.4 38.6846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/a4c62b1e-034e-4e09-bb87-cac54dcaaa12" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/a4c62b1e-034e-4e09-bb87-cac54dcaaa12/748985b8-be37-41cd-b7eb-0fffb11765ff"
+      (reference "#PWR?") (unit 1) (value "AC") (footprint "")
+    )
+    (path "/a4c62b1e-034e-4e09-bb87-cac54dcaaa12/b2c41616-5cd8-4345-b6cc-be7bf95c8d1b"
+      (reference "#PWR?") (unit 1) (value "GNDREF") (footprint "")
+    )
+    (path "/a4c62b1e-034e-4e09-bb87-cac54dcaaa12/f8f6cfc4-d8b7-40bc-8d98-0c53bc02a0a5"
+      (reference "C?") (unit 1) (value "C") (footprint "")
+    )
+    (path "/a4c62b1e-034e-4e09-bb87-cac54dcaaa12/2cbc335f-fb60-477d-8827-a87baefe95cd"
+      (reference "R?") (unit 1) (value "R LOAD") (footprint "")
+    )
+  )
+)
